@@ -1,0 +1,26 @@
+
+> a@0.1.0 build
+> next build
+
+▲ Next.js 16.2.12 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 12.9s
+  Running TypeScript ...
+  Finished TypeScript in 7.6s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/13) ...
+⨯ useSearchParams() should be wrapped in a suspense boundary at page "/orders". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at S (C:\Users\IE\Projects\a\.next\server\chunks\ssr\node_modules_05s14ek._.js:2:2692)
+    at r (C:\Users\IE\Projects\a\.next\server\chunks\ssr\node_modules_05s14ek._.js:4:6760)
+    at C:\Users\IE\Projects\a\.next\server\chunks\ssr\_1bptd3i._.js:1:1295
+    at an (C:\Users\IE\Projects\a\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:84267)
+    at ai (C:\Users\IE\Projects\a\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:86086)
+    at al (C:\Users\IE\Projects\a\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:107860)
+    at as (C:\Users\IE\Projects\a\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:105275)
+    at aa (C:\Users\IE\Projects\a\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:84619)
+    at ai (C:\Users\IE\Projects\a\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:86135)
+    at ai (C:\Users\IE\Projects\a\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:104615)
+Error occurred prerendering page "/orders". Read more: https://nextjs.org/docs/messages/prerender-error
+Export encountered an error on /orders/page: /orders, exiting the build.
+⨯ Next.js build worker exited with code: 1 and signal: null

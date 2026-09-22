@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "id": "1",
+    "name": "Khan g",
+    "email": "admin@stockpilot.io",
+    "role": "Inventory Administrator",
+    "title": "Inventory Administrator",
+    "region": "Seattle, United States",
+    "phone": "03178964091",
+    "location": "Seattle, United States",
+    "timezone": "UTC-8",
+    "bio": "Leading inventory operations with a focus on speed, accuracy, and forecasting.",
+    "avatarColorIndex": 0,
+    "createdAt": "2026-08-01T12:59:17.623Z",
+    "updatedAt": "2026-08-16T22:59:15.323Z"
+  }
+}
